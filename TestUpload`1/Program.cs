@@ -7,6 +7,8 @@
             string input = Console.ReadLine();
             // Write your code here:
             Console.WriteLine(input);
+            Console.WriteLine(input);
+            Console.WriteLine(input);
         }
     }
 }
