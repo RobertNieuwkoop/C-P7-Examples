@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string message = "Passport and a toothbrush!";
-            Console.WriteLine(message);
+            string name = "Ada Lovelace";
+            // Write your code here:
+            Console.WriteLine("Hello " + name);
         }
     }
 }
