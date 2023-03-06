@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Give a number!");
             string input = Console.ReadLine();
-            double nrInput = Convert.ToDouble(input);
+            bool nrInput = Convert.ToBoolean(input);
             Console.WriteLine("You gave: " + nrInput);
         }
     }
