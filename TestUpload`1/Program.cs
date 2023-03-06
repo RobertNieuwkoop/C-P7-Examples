@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string name = "Ada Lovelace";
+            string input = Console.ReadLine();
             // Write your code here:
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine(input);
         }
     }
 }
