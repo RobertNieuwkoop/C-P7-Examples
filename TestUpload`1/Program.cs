@@ -4,11 +4,10 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your name?");
             string input = Console.ReadLine();
             // Write your code here:
-            Console.WriteLine(input);
-            Console.WriteLine(input);
-            Console.WriteLine(input);
+            Console.WriteLine("Hello " + input + "!");
         }
     }
 }
