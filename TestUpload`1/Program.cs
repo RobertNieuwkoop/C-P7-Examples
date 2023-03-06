@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Give a number!");
             string input = Console.ReadLine();
-            int nrInput = Convert.ToInt32(input);
+            double nrInput = Convert.ToDouble(input);
             Console.WriteLine("You gave: " + nrInput);
         }
     }
