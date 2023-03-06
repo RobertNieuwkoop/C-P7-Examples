@@ -4,10 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
-            string input = Console.ReadLine();
+            Console.WriteLine("Hello, how are you?");
+            Console.ReadLine();
+            Console.WriteLine("That's interesting, tell me more");
             // Write your code here:
-            Console.WriteLine("Hello " + input + "!");
+            Console.ReadLine();
+            Console.WriteLine("Thanks for sharing!");
         }
     }
 }
